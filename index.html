@@ -16,33 +16,30 @@
         </div>
     </div>
     <div class="container">
-        <div class="hangamn-box">
-            <img src="images/hangman-0.svg">
+        <div class="hangman-box">
+            <img src="images/hangman-0.svg" alt="Hangman illustration">
             <h1>Hangman Game</h1>
         </div>
         <div class="game-box">
-            <ul class="word-display">
-                <li class="letter guessed">a</li>                            
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>
-                <li class="letter"></li>                                
-                <li class="letter"></li>
-
-            </ul>
+            <ul class="word-display"></ul>
             <h4 class="hint-text">
-                Hint:
-                <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sunt.</b>
+                HINT:
+                <b>words</b>
             </h4>
-            <h4 class="guesses-text">
-                Incorrect guesses:
-                <b>0/6</b>
-            </h4>
-            <div class="keyboard">
-                
+            <div class="stats">
+                <h4 class="guesses-text">
+                Remaining attempts:
+                <b>6</b>
+                 </h4>
+                <h4 class="wins-text">
+                Wins:
+                <b>0</b>
+                 </h4>
             </div>
+            <div class="keyboard"> </div>
         </div>
     </div>
+    <script src="word.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
